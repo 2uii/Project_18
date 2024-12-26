@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Canvas Styling */
+        #canvas1 {
+            width: 800px; /* Desired canvas width */
+            height: 600px; /* Desired canvas height */
+            border: 1px solid black; /* Optional border for visibility */
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Game Area -->
+    <div>
+        <canvas id="canvas1"></canvas>
+    </div>
+
+    <!-- Hidden Assets -->
+    <div style="display: none;">
+        <img id="player" src="assets/player.png" alt="Player">
+        <img id="layer1" src="assets/layer-1.png" alt="Layer 1">
+        <img id="layer2" src="assets/layer-2.png" alt="Layer 2">
+        <img id="layer3" src="assets/layer-3.png" alt="Layer 3">
+        <img id="layer4" src="assets/layer-4.png" alt="Layer 4">
+        <img id="layer5" src="assets/layer-5.png" alt="Layer 5">
+        <img id="enemy_bat" src="assets/enemy_bat.png" alt="Enemy Bat">
+        <img id="enemy_plant" src="assets/enemy_plant.png" alt="Enemy Plant">
+        <img id="enemy_spider_big" src="assets/enemy_spider_big.png" alt="Enemy Spider Big">
+        <img id="fire" src="assets/fire.png">
+        <img id="collisionAnimation" src="assets/boom.png">
+        <img id="lives" src="assets/lives.png">
+    </div>
+
+    <!-- JavaScript Entry -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
