@@ -37,9 +37,9 @@ export class UI {
                 context.font = this.fontSize * 0.7 + 'px ' + this.fontFamily;
                 context.fillText('What are the creatures of the night afraid of? YOU!!!', this.game.width * 0.5, this.game.height * 0.5 + 20);
             } else {
-                context.fillText('Love at first bite?', this.game.width * 0.5, this.game.height * 0.5 - 20);
+                context.fillText('FLAT 1, PAPASARA MI SIR', this.game.width * 0.5, this.game.height * 0.5 - 20);
                 context.font = this.fontSize * 0.7 + 'px ' + this.fontFamily;
-                context.fillText('Nope. Better luck next time!', this.game.width * 0.5, this.game.height * 0.5 + 20);
+                context.fillText('PASS! FOR THE GO', this.game.width * 0.5, this.game.height * 0.5 + 20);
             }
         }
 
